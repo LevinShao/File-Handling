@@ -1,5 +1,5 @@
 # TODO: Open the file "students.txt" in read mode
-with open("students.txt", "r") as file:
+with open("File Handling/students.txt", "r") as file:
 
     # TODO: Read the file content (use the correct file method)
     content = file.read()

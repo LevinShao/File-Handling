@@ -1,5 +1,5 @@
 # TODO: Open the file "students.txt" in read mode
-with open("students.txt", "r") as file:
+with open("File Handling/students.txt", "r") as file:
 
     # TODO: Read lines from the file and store them in a list
     lines = file.readlines()

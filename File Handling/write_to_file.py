@@ -1,5 +1,5 @@
 # TODO: Open "movies.txt" in write mode
-with open("movies.txt", "w") as file:
+with open("File Handling/movies.txt", "w") as file:
 
         # TODO: Ask the user for a favourite movie THREE TIMES. Be efficient in your code.
         for i in range(3):
@@ -13,5 +13,5 @@ print("\nYour favorite movies have been saved to movies.txt!")
 
 # TODO: Check the file and ensure it worked!
 print("\nFile contents:")
-with open("movies.txt", "r") as file:
+with open("File Handling/movies.txt", "r") as file:
     print(file.read())
